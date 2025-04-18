@@ -1,12 +1,10 @@
 import { Layout } from "./components/Layout";
-import { Filter } from "./components/Filter";
+import { Main } from "./components/Main";
 
 function App() {
   return (
     <Layout>
-      <section className="max-w-6xl px-4">
-        <Filter />
-      </section>
+      <Main />
     </Layout>
   );
 }
