@@ -9,11 +9,11 @@ export const Layout = (props: Props) => {
   return (
     <div className="min-h-full">
       <header className="bg-blue-100/80">
-        <div className="max-w-6xl mx-auto flex items-center py-2 px-4">
+        <div className="max-w-6xl py-2 px-4">
           <img src={logo} width={93} height={39} alt="logo" />
         </div>
       </header>
-      <main className="max-w-6xl py-10 mx-auto">{props.children}</main>
+      <main className="py-10 mx-auto">{props.children}</main>
     </div>
   );
 };
